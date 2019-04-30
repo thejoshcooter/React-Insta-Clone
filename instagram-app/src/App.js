@@ -18,7 +18,7 @@ class App extends React.Component {
       <SearchBar />
       <div className="container">
         <div className="content-container">
-          <PostContainer />
+          <PostContainer posts={this.state.posts} />
         </div>
 
         <div className="sidebar-container">
