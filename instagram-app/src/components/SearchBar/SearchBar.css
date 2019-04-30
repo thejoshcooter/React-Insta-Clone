@@ -1,0 +1,61 @@
+/* main nav general  */
+
+.main-nav {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #FFF;
+}
+
+.main-nav div {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav div:first-child {
+    justify-content: flex-end;
+}
+
+.main-nav div:last-child {
+    justify-content: flex-start;
+}
+
+.main-nav .nav-icon {
+    font-size: 1.8rem;
+}
+
+/* main nav logo area */
+
+.main-nav .logo img {
+    width: 7rem;
+    margin: 1rem;
+    padding-left: 1rem;
+    border-left: 2px solid black;
+}
+
+/* main nav search bar */
+
+.main-nav .search textarea {
+    width: 15rem;
+    height: 1.5rem;
+    background-color: #F5F5F5;
+    border-radius: 3px;
+    text-align: center;
+    display: flex;
+    flex-flow: colummn nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main nav icons */
+
+.main-nav .menu i {
+    margin: 1rem;
+}
