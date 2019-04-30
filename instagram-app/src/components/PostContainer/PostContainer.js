@@ -7,8 +7,12 @@ const PostContainer = props => {
     return (
         <div className="post-container">
             {props.posts.map(post => {
-                return <div><PostHeader /><Post /></div>
-            })};
+                return (
+                    <div>
+                        <Post post={post} />
+                    </div>
+                );
+            })}
         </div>
     );
 };

@@ -22,7 +22,7 @@ class App extends React.Component {
         </div>
 
         <div className="sidebar-container">
-
+          <h1>Sidebar stuff</h1>
         </div>
       </div>
     </div>

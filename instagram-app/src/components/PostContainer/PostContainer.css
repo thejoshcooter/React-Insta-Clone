@@ -2,6 +2,41 @@
 
 .post-container {
     width: 96%;
-    height: 500px;
-    background-color: red;
+    /* height: 500px; */
+}
+
+/* post header  */
+
+.post-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.post-header h2 {
+    font-size: 1.2rem;
+}
+
+.post-header img {
+    width: 3rem;
+    margin: 1rem;
+    border-radius: 100px;
+}
+
+/* post  */
+
+.post {
+    margin: 2.5rem 0;
+    background-color: #FFF;
+    border: 1px solid gray;
+}
+
+
+.post:first-child { /* reset margin on first post to align */
+    margin-top: 0;
+}
+
+.post .featured {
+    width: 100%;
 }

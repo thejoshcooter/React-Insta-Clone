@@ -36,7 +36,7 @@
 
 .container {
   width: 100%;
-  height: 1000px;
+  /* height: 1000px; */
   max-width: 1100px;
   margin: 0 auto;
   display: flex;
@@ -47,16 +47,19 @@
 
 .content-container {
   width: 69%;
-  height: 800px;
+  /* height: auto; */
+  margin-top: 10rem;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: flex-start;
-  background-color: green;
+  /* background-color: green; */
 }
 
 .sidebar-container {
   width: 29%;
-  height: 800px;
+  margin-top: 10rem;
+  height: 1000px;
+  align-self: flex-start;
   background-color: blue;
 }
