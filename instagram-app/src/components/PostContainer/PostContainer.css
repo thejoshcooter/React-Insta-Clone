@@ -1,0 +1,7 @@
+/* post container general */
+
+.post-container {
+    width: 96%;
+    height: 500px;
+    background-color: red;
+}

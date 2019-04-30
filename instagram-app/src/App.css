@@ -43,12 +43,15 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
 }
 
 .content-container {
   width: 69%;
   height: 800px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
   background-color: green;
 }
 
