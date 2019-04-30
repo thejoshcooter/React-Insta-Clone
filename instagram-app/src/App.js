@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import SearchBar from './components/SearchBar/SearchBar'
 
 function App() {
   return (
     <div className="App">
-      <h1>My Instagram Clone</h1>
+      <SearchBar />
     </div>
   );
 }
