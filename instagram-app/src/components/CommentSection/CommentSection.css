@@ -1,0 +1,48 @@
+/* comment section general */
+
+.comment-section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* comment section icons */
+
+.comment-section ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+}
+
+.comment-section ul li {
+    list-style-type: none;
+    font-size: 1.8rem;
+    margin: 0.4rem;
+}
+
+.comment-section ul li:first-child {
+    margin-left: -1.5rem;
+}
+
+/* comment section likes */
+
+.comment-section span {
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+/* comment */
+
+.comment {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: -0.8rem;
+    margin-left: 0.1rem;
+    padding: 0;
+    font-size: 1rem;
+}
