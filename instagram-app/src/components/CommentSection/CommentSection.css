@@ -34,6 +34,7 @@
     font-weight: bold;
 }
 
+
 /* comment */
 
 .comment {
@@ -41,8 +42,52 @@
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
-    margin: -0.8rem;
     margin-left: 0.1rem;
     padding: 0;
     font-size: 1rem;
+    line-height: 0;
 }
+
+
+
+
+
+/* timestamp */
+
+.timestamp {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+/* comment field */
+
+.comment-field {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #F5F5F5;
+}
+
+.comment-field textarea {
+    width: 90%;
+    height: 2rem;
+    margin: 0.2rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    border: none;
+    line-height: 2rem;
+}
+
+.comment-field button {
+    color: lightskyblue;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    margin-right: 0.5rem;
+}
+
