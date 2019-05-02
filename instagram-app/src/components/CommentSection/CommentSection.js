@@ -16,10 +16,20 @@ const CommentSection = props => {
                 return <div className="comment"><span>{index.username}</span><p>{index.text}</p></div>
             })}
 
-            <span className="timestamp">{props.post.timestamp}</span>
+            {/* <span className="timestamp">{props.post.timestamp}</span> */}
+            <TimeStamp date={props.post.timestamp}/>
 
             <CommentField />
         </div>
+    );
+};
+
+const TimeStamp = props => {
+    // console.log(moment(props.date).startOf('hour').fromNow());
+    const dateToFormat = moment(props.date, 'MMMM Do YYYY h:mm:ss a').startOf('hour').fromNow();
+    console.log(dateToFormat);
+    return (
+        <div className="timestamp">{dateToFormat}</div>
     );
 };
 
