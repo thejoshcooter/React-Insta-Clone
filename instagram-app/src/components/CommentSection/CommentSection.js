@@ -15,8 +15,7 @@ const CommentSection = props => {
             {props.post.comments.map(index => {
                 return <div className="comment"><span>{index.username}</span><p>{index.text}</p></div>
             })}
-
-            {/* <span className="timestamp">{props.post.timestamp}</span> */}
+            
             <TimeStamp date={props.post.timestamp}/>
 
             <CommentField />
